@@ -1,0 +1,25 @@
+.HeaderContainer{
+    @apply flex items-center w-full bg-[#1E1E1E] justify-center p-6
+    md:p-8
+}
+.HeaderContent{
+    @apply flex flex-row items-center w-full justify-between
+    md:w-[95%]
+}
+.HeaderTitle{
+    @apply text-[#E9E3DC] text-lg font-bold uppercase
+    md:text-3xl
+}
+.HeaderNavbar{
+    @apply flex flex-row items-center justify-end w-auto space-x-1
+    sm:space-x-2
+}
+.HeaderLi{
+    font-family: 'Bowlby One', cursive;
+    @apply text-[#E9E3DC] text-xs font-bold uppercase cursor-pointer list-none px-3 py-1.5 rounded-sm
+    transition-all duration-300 ease-in-out
+    md:text-sm md:px-5 md:py-2
+}
+.HeaderLi:hover{
+    @apply bg-[#B3A0CD] text-[#1E1E1E]
+}

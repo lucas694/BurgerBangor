@@ -1,0 +1,14 @@
+.BtnBase{
+    font-family: 'Bowlby One', cursive;
+    @apply flex flex-row items-center justify-center w-full border-2
+    px-5 py-2 bg-transparent border-transparent text-sm uppercase
+    md:w-auto
+    hover:-translate-y-1 hover:shadow-lg hover:scale-110 duration-300
+}
+
+.BtnWhite{
+    @apply bg-[#E9E3DC] border-[#1E1E1E] border-[3px]
+}
+.FrameBtn{
+    @apply bg-[#DD6B2A] border-[#E9E3DC] border-[3px] text-[#E9E3DC] px-8 py-3
+}

@@ -1,0 +1,25 @@
+.CardBannerContainer{
+    @apply flex flex-col items-start justify-end max-w-[320px] w-auto
+    border-2 border-[#E9E3DC] rounded-3xl relative overflow-hidden
+    transition-all duration-500 ease-in-out
+    lg:max-w-[450px]
+}
+.CardBannerContent{
+    @apply flex flex-col items-start justify-center bg-[#1E1E1E] rounded-3xl w-2/3
+    absolute bottom-0 m-4 p-5
+    md:m-5 md:p-6
+}
+.CardBannerTitle{
+    @apply text-base text-[#E9E3DC] uppercase
+    lg:text-xl
+}
+.CardBannerDesc{
+    @apply text-xs text-[#B3A0CD] uppercase mt-2
+    lg:text-sm
+}
+.BannerImg{
+    @apply w-full transition-all duration-500 ease-in-out
+}
+.CardBannerContainer:hover .BannerImg{
+    @apply scale-105
+}

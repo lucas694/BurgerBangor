@@ -1,0 +1,23 @@
+.FrameContainer{
+    @apply flex flex-col items-center justify-center w-full py-10
+    md:py-20
+}
+.FrameContent{
+    @apply flex flex-col items-center justify-center w-[90%]
+}
+.FrameImgContent{
+    @apply flex flex-col items-center justify-center w-full
+}
+.FrameTextContent{
+    @apply flex flex-col items-center justify-center w-full mt-10
+    md:mt-20
+}
+.FrameText{
+    @apply text-2xl font-bold text-center text-[#E9E3DC] uppercase
+    md:text-5xl
+    lg:text-7xl
+}
+
+.FrameBtnControl{
+    @apply flex flex-col items-center justify-center w-full mt-10
+}
